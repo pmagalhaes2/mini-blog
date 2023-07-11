@@ -28,11 +28,10 @@
 
 .links_list li a {
   text-decoration: none;
-  padding: .4rem .6rem;
+  padding: 0.4rem 0.6rem;
 }
 
 .active {
-    background-color: #000;
-    color: #fff;
-  }
-  
+  background-color: #000;
+  color: #fff;
+}
