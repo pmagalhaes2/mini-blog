@@ -20,7 +20,6 @@ export const useAuthentication = () => {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const navigate = useNavigate();
 
   // cleanup
   // deal with memory leak
@@ -50,7 +49,6 @@ export const useAuthentication = () => {
 
       setLoading(false);
 
-      navigate("/login");
 
       return user;
     } catch (error: any) {
